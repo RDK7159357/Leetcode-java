@@ -5,7 +5,7 @@ public class Q58{
 
   }
 
-    public int lengthOfLastWord(String s) {
+    public static int lengthOfLastWord(String s) {
         String [] words = s.split(" ");
         
         String k = words[words.length-1];
