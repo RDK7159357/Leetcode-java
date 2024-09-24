@@ -1,11 +1,15 @@
 // import java.util.Arrays;
+
+import java.util.Arrays;
+
 public class test {
     public static void main(String[] args) {
-        String a = "2";
-        String b = "10";
-        String res1 = a+b;
-        String res2 = b+a;
-        System.out.println(res2.compareTo(res1));       
-        // 210  102 
-    }
+        int n=15;
+        String []s=new String[n-1]; 
+        for (int i = 1; i <= n; i++)
+        {
+            s[i]=String.valueOf(i);
+        }
+        System.out.println(Arrays.toString(s));
+}
 }
